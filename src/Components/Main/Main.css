@@ -1,0 +1,59 @@
+.word{
+    word-spacing: 12px;
+}
+.word1{
+    word-spacing: 13.5px;
+}
+.word2{
+    word-spacing: 7.3px;
+}
+.word3{
+    word-spacing: 2.5px;
+}
+.word4{
+    word-spacing: 26px;
+}
+.word5{
+    word-spacing: 15px;
+}
+.word6{
+    word-spacing: 9px;
+}
+.word7{
+    word-spacing: 5px;
+}
+.word8{
+    word-spacing: 17.2px;
+}
+.word9{
+    word-spacing: 27.6px;
+}
+.word10{
+    word-spacing: 4px;
+}
+.word11{
+    word-spacing: 2px;
+}
+
+
+.word12{
+    word-spacing: 15px;
+}
+.word13{
+    word-spacing: 6px;
+}
+
+
+
+
+.bg-gradient-to-r {
+    background-image: linear-gradient(to left, rgba(123, 93, 250, 0.9) 0%, rgba(123, 93, 250, 0.33) 100%);
+}
+
+.from-custom-blue-90 {
+    background-color: rgba(123, 93, 250, 0.9);
+}
+
+.to-custom-blue-33 {
+    background-color: rgba(123, 93, 250, 0.33);
+}
