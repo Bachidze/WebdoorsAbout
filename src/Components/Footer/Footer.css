@@ -1,0 +1,15 @@
+@media (width >= 1920px){
+    .dashoreba{
+        column-gap: 112px;
+    }
+}
+@media (width >= 2050px){
+    .dashoreba{
+        column-gap: 152px;
+    }
+}
+@media (width >= 2300px){
+    .dashoreba{
+        column-gap: 170px;
+    }
+}

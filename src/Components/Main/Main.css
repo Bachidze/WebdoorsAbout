@@ -54,19 +54,9 @@
 
 @media (width >= 850px){
     .medium{
-        column-gap: 97px;
+        column-gap: 75px;
     }
     .medium2{
         max-width: 750px;
-    }
-    .medium3{
-        column-gap: 50px;
-    }
-    .medium4{
-        width: 535px;
-        left: 105px;
-    }
-    .medium5{
-        column-gap: 250px;
     }
 }
