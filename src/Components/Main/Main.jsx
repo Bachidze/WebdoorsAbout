@@ -5,7 +5,7 @@ const Main = () => {
     <>
       <main className='w-[95%] pt-[50px] max-w-[1920px] m-[auto] md:w-[90%] md:pt-[61px]'>
         <section className='flex flex-col justify-center items-center xl:pt-[200px] xl:pb-[60px]'>
-            <div className='flex  items-center pb-[7px] md:pl-[69px]'>
+            <div className='flex  items-center pb-[7px] md:pl-[69px] xl:pl-[110px]'>
                 <div className='border h-[7px] w-[1px] bg-white md:border-[#8F8CEF] md:h-[9px]'></div>
                 <div className='border  w-[67px] md:w-[77px] md:border-[#8F8CEF] xl:w-[147px]'></div>
                 <div className='border w-[7px] h-[7px] rounded-[50%] md:border-[#8F8CEF] md:w-[9px] md:h-[9px] xl:w-[10px] xl:h-[10px] xl:border-2'></div>
