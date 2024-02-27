@@ -13,3 +13,8 @@
         column-gap: 170px;
     }
 }
+@media (width >= 2550px){
+    .dashoreba{
+        column-gap: 180px;
+    }
+}
