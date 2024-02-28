@@ -22,7 +22,7 @@ const Main = () => {
                 />
             ))}
 
-        <section className='flex flex-wrap  justify-between m-auto max-w-[1200px] pt-[50px] gap-[40px]  md:mt-[60px] maingrid xl:w-[80%] xl:max-w-[1021px] xl:gap-[60px] xl:m-auto medium'>
+        <section className='flex flex-wrap    justify-center m-auto max-w-[1200px] pt-[50px] gap-[40px] md:justify-between  md:mt-[60px] maingrid xl:w-[80%] xl:max-w-[1021px] xl:gap-[60px] xl:m-auto medium'>
             
             {data.map(el => (
             <div className={`${el.className}`}>
