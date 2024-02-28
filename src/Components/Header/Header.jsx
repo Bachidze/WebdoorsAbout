@@ -1,25 +1,23 @@
 import React from 'react'
 import './Header.css'
+import { data5 } from '../../data'
+import HeaderComponent from '../LittleComponents/HeaderComponent'
 
 const Header = () => {
   return (
     <>
     <header className='w-[95%] pt-[17px] max-w-[1920px] m-[auto] md:w-[90%] md:pt-[35px] xl:w-[80%] xl:pt-[60px]'>
-        <section className='flex items-center justify-between'>
-            <img className='xl:hidden' src="/assets/MobileHeader1Webdoors.svg" alt="Logo" />
-            <div className='hidden xl:flex gap-11'>
-              <a className='text-[18px] leading-[22.5px] text-white' href="#">Services</a>
-              <a className='text-[18px] leading-[22.5px] text-white' href="#">Projects</a>
-              <a className='text-[18px] leading-[22.5px] text-white' href="#">About</a>
-            </div>
-            <div className='xl:relative right-[70px]'>
-              <img className='md:w-[31px] xl:w-[39px]' src="/assets/MobileHeader2Webdoors.svg" alt="Main" />
-            </div>
-            <div className='xl:flex xl:gap-8'>
-            <img className='hidden xl:flex' src="/assets/DesktopHeader.svg" alt="" />
-            <img src="/assets/MobileHeader3Webdoors.svg" alt="Nav" />
-            </div>
-        </section>
+       {data5.map(el5 => (
+        <HeaderComponent 
+          Logo={el5.Logo}
+          About={el5.About}
+          Projects={el5.Projects}
+          Services={el5.Services}
+          MiddleImg={el5.MiddleImg}
+          Nav={el5.Nav}
+          hiddenImg={el5.hiddenImg}
+        />
+       ))}
     </header>
     </>
   )
