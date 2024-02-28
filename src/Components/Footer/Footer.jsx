@@ -2,9 +2,9 @@ import React from 'react'
 import './Footer.css'
 const Footer = () => {
   return (
-    <footer className='w-[95%] m-[auto] max-w-[1920px] xl:w-[80%]'>
-        <section className='hidden xl:flex xl:flex-col xl:pt-[159px] xl:m-auto'>
-            <div className='flex justify-center flex-wrap gap-[65px] xl:pb-[60px] dashoreba'>
+    <footer className='w-[95%] m-[auto] max-w-[1200px] xl:w-[80%] xl:max-w-[1920px]'>
+        <section className='hidden xl:flex xl:flex-col xl:mt-[159px] xl:m-auto'>
+            <div className='flex justify-center flex-wrap gap-[65px] xl:mb-[60px] dashoreba'>
                 <img src="/assets/PirveliSponsoriWebdoors.svg" alt="Pirveli" />
                 <img src="/assets/Sharm.svg" alt="Sharm" />
                 <img src="/assets/SqartveloWebdoors.svg" alt="Saqartvelo" />
@@ -69,7 +69,7 @@ const Footer = () => {
             </div>
             <div className='flex items-center relative left-[5px] md:left-[97px] medium4 xl:hidden'>
                 <div className='border-2 w-[10px] h-[10px] rounded-[50%]'></div>
-                <div className='border w-[320px] md:w-[473px] medium4'></div>
+                <div className='border w-[290px] md:w-[473px] medium4'></div>
                 <div className='border h-[10px] w-[2px] bg-white'></div>
             </div>
         </section>
